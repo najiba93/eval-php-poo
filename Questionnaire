@@ -1,0 +1,74 @@
+    I. Qu'est-ce qu'une classe en PHP ? 
+
+                Une classe en PHP permet de définir la structure et le comportement 
+                des objets que nous allons créer dans notre application.
+
+    II. Qu'est-ce qu'un objet en PHP ?
+
+
+                Un objet en PHP est une instance  d’une classe, avec ses propres valeurs 
+                pour les propriétés et la capacité d’appeler ses méthodes spécifiques.
+                ex. 
+                class Voiture {}$maVoiture = new Voiture(); 
+
+    III. Comment crée-t-on un objet ? 
+
+
+                Utilisez le mot-clé 'new' suivi du nom de la classe.
+                Cela créera une instance de la classe qui pourra ensuite être utilisée 
+                pour appeler des méthodes publiques ou accéder à des 
+                propriétés publiques définies dans la classe. 
+                Ceci est crucial en POO car cela permet la réutilisabilité et la modularité du code.
+
+    IV. Quels sont les niveaux de visibilité des propriétés et des méthodes ? 
+
+
+                les niveaux de visibilité des propriétés et des méthodes sont définis 
+                par trois mots-clés : public, private et protected.
+                Public : Accessible partout.Private : Limité à l’intérieur de la classe.Protected : Accessible à la classe et à ses classes dérivées
+
+
+    V. Qu'est-ce que l'héritage ? 
+
+                L'héritage est un concept fondamental de la programmation orientée objet (POO) en PHP
+                Il permet à une classe de réutiliser le code d’une autre classe sans le duplique.
+
+
+
+
+    VI. Quelle est la différence entre une classe et un objet ?
+
+                Une classe est un modèle ou un plan qui définit les propriétés et les méthodes 
+                d'un objet, tandis qu'un objet est une instance concrète de cette classe, 
+                avec ses propres valeurs pour les propriétés définies dans la classe.
+  
+    VII. Quelle est la différence entre "public" et "private" ? 
+    
+                "Public" signifie que la propriété ou la méthode est accessible de 
+                n'importe où dans le code, tandis que "private" signifie qu'elle 
+                n'est accessible qu'à l'intérieur de la classe elle-même.
+
+   
+    VIII. Qu'est-ce qu'une méthode magique ? 
+    
+                Les méthodes magiques sont des méthodes prédéfinies dans PHP qui 
+                commencent par deux underscores (__) et qui sont appelées automatiquement 
+                par le moteur PHP dans certaines situations, comme __construct() pour 
+                le constructeur d'une classe ou __destruct() pour le destructeur.
+
+
+   IX. Quelle est l'utilisation de la méthode magique "__toString()" ?  
+       
+    
+                La méthode magique __toString() est utilisée pour définir comment 
+                un objet doit être converti en chaîne de caractères lorsqu'il est 
+                utilisé dans un contexte où une chaîne est attendue, comme lors de 
+                l'affichage d'un objet.
+
+
+    X. Comment déclare-t-on une constante de classe ? 
+                  
+                
+                On déclare une constante de classe en utilisant le mot-clé "const" 
+                suivi du nom de la constante et de sa valeur, par exemple : 
+                class MaClasse { const MA_CONSTANTE = 'valeur'; }.    
