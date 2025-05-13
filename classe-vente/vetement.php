@@ -96,8 +96,15 @@ $vetement3= new vetementHomme(2, "Pantalon ", "Homme", 16.99);
 echo $vetement3->afficherDetails();
 
 $vetement3= new vetementEnfant(3, "Déguisement hippie garçon ", "Enfant", 49.99);
-echo $vetement3->afficherDetails();
 
+// echo $vetement3->afficherDetails();
+
+
+
+// prenser à mettre les propriétés en protected et pas en public
+// pas de getter et setter
+
+// 17/20
 
 
 
